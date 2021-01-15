@@ -71,7 +71,7 @@ a{
 .head-it{
   padding: 0px 10px 0px 10px;
 }
-.item:hover{
+.nav-item:hover{
   color: #00bfa6;
 }
 .nav-item:active{
