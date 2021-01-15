@@ -272,8 +272,8 @@ h2 {
   flex-wrap: wrap;
 }
 .proj-card{
-    width: 260px;
-    height: 230px;
+    width: 347px;
+    height: 347px;
     background-color: white;
     box-sizing: border-box;
     border-radius: 10px;
@@ -292,8 +292,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-height: 184px;
+  width: 221px;
+  height: 221px;
 }
 .img-projects{
 width: 100%;
