@@ -25,6 +25,9 @@ body {
 .m-right-big {
   margin-right: 30px;
 }
+.m-botton-lil{
+  margin-bottom: 5px;
+}
 .m-bottom-big {
   margin-bottom: 20px;
 }
@@ -398,4 +401,12 @@ footer {
 }
 ul{
   list-style: none;
+}
+.rrss-contact a:hover{
+  color: #00bfa6;
+}
+.icon-formatt a:hover{
+  color: white;
+  background-color: #00bfa6;
+  border-radius: 50%;
 }
