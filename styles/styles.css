@@ -200,7 +200,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  color: black;
   width: 260px;
   height: 230px;
   background-color: white;
@@ -209,6 +209,10 @@ h2 {
   border: 1px solid #dddfe5;
   min-height: auto;
   min-width: auto;
+}
+.skills-card:hover{
+  border: 1px solid #00bfa6;
+  color: #00bfa6;
 }
 .skill-logo{
   height: 74.6667px;
@@ -223,6 +227,7 @@ h2 {
   line-height: 28px;
   text-decoration: none solid rgb(0, 0, 0);
 }
+
 /*--------QUOTE----------------*/
 .sec-quote {
   color: white;
@@ -362,4 +367,6 @@ footer {
   text-decoration: none solid #00bfa6;
   text-align: center;
 }
+/*-----------------CONTACT----------------*/
+
 
