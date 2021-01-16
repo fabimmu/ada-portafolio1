@@ -410,3 +410,7 @@ ul{
   background-color: #00bfa6;
   border-radius: 50%;
 }
+.name-sec-form{
+  display: flex;
+  justify-content: flex-start;
+}

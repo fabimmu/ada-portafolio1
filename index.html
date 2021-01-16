@@ -447,24 +447,36 @@
             <h2>Escribime</h2>
             <form>
               <div class="name-sec-form">
+                <div class="form-name">
                 <label for="idNombre">Nombre * </label><br>
                 <input type="text" id="idNombre" name="nombre"
                     autocomplete="off"
                     disabled
                     value="p. ej.: Fabiola"
-                >
+                ></div>
+                <div class="form-lastn">
                 <label for="idApellido">Apellido * </label><br>
                 <input type="text" id="idApellido" name="apellido"
                     autocomplete="off"
                     disabled
                     value="p. ej.: Montoya"
-                >
+                ></div>
               </div>
               <div class="email-sec-form">
-
+                <label for="idEmail">Email * </label><br>
+                <input type="email" id="idEmail" name="email"
+                    autocomplete="off"
+                    disabled
+                    value="p. ej.: fabi@gmail.com">
               </div>
               <div class="message-sec-form">
-
+                <label for="message">Mensaje *</label><br>
+                <textarea
+                  name="message" id="message" cols="30"
+                  rows="10"
+                  placeholder="Escriba un mensaje aquí"
+                  required
+                ></textarea>
               </div>
             </form>
           </div>
