@@ -1,0 +1,119 @@
+/*--------CONTACT FORM----------------*/
+.sec-contact {
+    width: 100vw;
+    height: 1024px;
+  }
+  
+  /*-----------------CONTACT----------------*/
+  .sec-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    height: 693px;
+    width: 1100px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 80px 60px 80px 60px;
+  }
+  .panel-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    height: 530.333px;
+    width: 488.667px;
+    padding: 0 0 0 20px;
+    min-height: auto;
+    min-width: auto;
+  }
+  .left-panel-contact h2, p{
+   text-align: left;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  } 
+  .rrss-contact{
+    text-align: left;
+  }
+  .rrss-contact a:hover{
+    color: #00bfa6;
+  }
+  .icon-formatt a:hover{
+    color: white;
+    background-color: #00bfa6;
+    border-radius: 50%;
+  }
+  /*---------------Form------------*/
+  .right-panel-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .name-sec-form{
+    display: flex;
+    justify-content: center;
+  }
+  .form-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .form-lastn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  input[type=text]{
+    border: none;
+    background-color: #F6F7F8;
+    color: gray;
+    border-radius: 50px;
+    width: 225px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .email-sec-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    align-items: flex-start;
+  }
+  input[type=email]{
+    border: none;
+    background-color: #F6F7F8;
+    color: gray;
+    border-radius: 50px;
+    width: 470px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .message-sec-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  textarea{
+    border: none;
+    color: gray;
+    background-color: #F6F7F8;
+    border-radius: 20px;
+    width: 470px;
+    height: 169px;
+    font-size: 13px;
+    line-height: 2em;
+    margin-left: 2em;
+  }
+  
