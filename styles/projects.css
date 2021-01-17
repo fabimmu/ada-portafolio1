@@ -1,0 +1,63 @@
+/*--------Projects----------------*/
+.sec-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1487px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .proj-description {
+    text-align: center;
+    height: 64px;
+    width: 400px;
+    margin: 16px 0 16px 0;
+    min-height: auto;
+    max-width: 400px;
+    min-width: auto;
+  }
+  .p-catalog {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .proj-card {
+    width: 347px;
+    height: 347px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #dddfe5;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 30px 30px 30px;
+    min-height: auto;
+    min-width: auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .proj-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 221px;
+    height: 221px;
+  }
+  .img-projects {
+    width: 100%;
+  }
+  .proj-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none solid rgb(0, 0, 0);
+  }
