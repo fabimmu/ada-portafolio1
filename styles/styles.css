@@ -419,7 +419,58 @@ ul{
   background-color: #00bfa6;
   border-radius: 50%;
 }
+/*---------------Form------------*/
+.right-panel-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .name-sec-form{
   display: flex;
+  justify-content: center;
+}
+.form-name{
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
+}
+.form-lastn{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+input[type=text]{
+  background-color: #F6F7F8;
+  color: black;
+  border-radius: 50px;
+  width: 225px;
+  height: 40px;
+  font-size: 16px;
+}
+.email-sec-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+input[type=email]{
+  background-color: #F6F7F8;
+  color: black;
+  border-radius: 50px;
+  width: 470px;
+  height: 40px;
+  font-size: 16px;
+}
+.message-sec-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+textarea{
+  background-color: #F6F7F8;
+  border-radius: 20px;
+  width: 470px;
+  height: 169px;
+  font-size: 13px;
 }
