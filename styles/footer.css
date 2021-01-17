@@ -1,0 +1,39 @@
+/*--------FOOTER--------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    color: white;
+    height: 315px;
+    width: 100vw;
+  }
+  .f-sitemap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .f-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-formatt {
+    color: #00bfa6;
+    background-color: white;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 42px;
+    text-decoration: none solid #00bfa6;
+    text-align: center;
+  }
