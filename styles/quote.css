@@ -1,0 +1,32 @@
+/*--------QUOTE----------------*/
+.sec-quote {
+    color: white;
+    height: 565px;
+    box-sizing: border-box;
+  }
+  .q-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-quote-right {
+    font-size: 5rem;
+  }
+  .q-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 145px;
+  }
+  .q-text {
+    font-size: 19px;
+    line-height: 26px;
+    margin-bottom: 58px;
+  }
+  .q-author {
+    font-size: 27.04px;
+    font-weight: 900;
+    line-height: 32.448px;
+  }
