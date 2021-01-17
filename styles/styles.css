@@ -378,8 +378,8 @@ footer {
 }
 .contact-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   height: 693px;
   width: 1100px;
@@ -399,8 +399,17 @@ footer {
   min-height: auto;
   min-width: auto;
 }
+.left-panel-contact h2, p{
+ text-align: left;
+}
 ul{
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+.rrss-contact{
+  text-align: left;
 }
 .rrss-contact a:hover{
   color: #00bfa6;
