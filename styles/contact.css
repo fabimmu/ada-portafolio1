@@ -1,11 +1,7 @@
-/*--------CONTACT FORM----------------*/
-.sec-contact {
-    width: 100vw;
-    height: 1024px;
-  }
-  
   /*-----------------CONTACT----------------*/
   .sec-contact {
+    width: 100vw;
+    height: 1024px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +32,9 @@
   .left-panel-contact h2, p{
    text-align: left;
   }
+  .parrafo{
+    width: 400px;
+  }
   ul{
     list-style: none;
     display: flex;
@@ -54,20 +53,20 @@
     border-radius: 50%;
   }
   /*---------------Form------------*/
-  .right-panel-contact{
+  .right-panel-contact{ 
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .name-sec-form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .form-name{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+
   }
   .form-lastn{
     display: flex;
@@ -84,6 +83,9 @@
     height: 40px;
     font-size: 16px;
   }
+  label{
+    text-align: left;
+  }
   .email-sec-form{
     display: flex;
     flex-direction: column;
@@ -92,6 +94,7 @@
     align-items: flex-start;
   }
   input[type=email]{
+   
     border: none;
     background-color: #F6F7F8;
     color: gray;
@@ -114,6 +117,5 @@
     height: 169px;
     font-size: 13px;
     line-height: 2em;
-    margin-left: 2em;
   }
   
