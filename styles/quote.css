@@ -2,6 +2,7 @@
 .sec-quote {
     color: white;
     height: 565px;
+    width: 100%;
     box-sizing: border-box;
   }
   .q-box {
