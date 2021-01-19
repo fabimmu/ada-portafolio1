@@ -16,6 +16,9 @@ footer {
     align-items: center;
     padding: 30px;
   }
+  .f-t-sitemap{
+    color: white;
+  }
   .f-icons {
     display: flex;
     justify-content: center;
