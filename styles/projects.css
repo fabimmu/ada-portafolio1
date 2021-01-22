@@ -46,6 +46,10 @@
     align-items: center;
     flex-direction: column;
   }
+  .proj-card:hover{
+    border: 1px solid #00bfa6;
+    color: #00bfa6;
+  }
   .proj-img {
     display: flex;
     justify-content: center;
