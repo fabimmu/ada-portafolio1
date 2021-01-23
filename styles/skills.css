@@ -77,4 +77,24 @@
     line-height: 28px;
     text-decoration: none solid rgb(0, 0, 0);
   }
-  
+  @media screen and (max-width: 567px) {
+    .sec-knowledge{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 110px 40px 130px 40px;
+    }
+    
+    .knowledge-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      min-height: auto;
+      min-width: auto;
+      box-sizing: border-box;
+    }
+
+  }
