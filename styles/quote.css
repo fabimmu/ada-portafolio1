@@ -3,7 +3,7 @@
     color: white;
     height: 565px;
     width: 100%;
-    box-sizing: border-box;
+   
   }
   .q-box {
     display: flex;
@@ -22,6 +22,8 @@
     height: 145px;
   }
   .q-text {
+    text-align: center;
+
     font-size: 19px;
     line-height: 26px;
     margin-bottom: 58px;
@@ -30,4 +32,14 @@
     font-size: 27.04px;
     font-weight: 900;
     line-height: 32.448px;
+  }
+  @media screen and (max-width: 567px) {
+    .q-text-box {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: 145px;
+    }
   }
