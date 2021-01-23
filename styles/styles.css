@@ -13,7 +13,10 @@ body {
 .back-c-white {
   background-color: white;
 }
-.back-c-gray {
+.back-c-gray1 {
+  background-color: #f6f7fb;
+}
+.back-c-gray2 {
   background-color: #f6f7fb;
 }
 .back-c-purple {
