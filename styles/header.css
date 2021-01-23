@@ -14,7 +14,7 @@ header {
     background-color: white;
     box-shadow: rgba(134, 134, 134, 0.25) 0px 0px 29px 0px;
   }
-  @media screen and (max-width:1003px){
+  @media screen and (max-width:576px){
     .hide-section{
       display: none;
     }

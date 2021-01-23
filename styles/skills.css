@@ -35,6 +35,7 @@
     min-height: auto;
     max-width: 400px;
     min-width: auto;
+    text-align: center;
   }
   .skills-know {
     box-sizing: border-box;
