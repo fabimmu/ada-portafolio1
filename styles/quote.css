@@ -2,9 +2,7 @@
 .sec-quote {
     color: white;
     height: 565px;
-    width: 100%;
-   
-  }
+    }
   .q-box {
     display: flex;
     flex-direction: column;
