@@ -114,6 +114,7 @@ input[type="email"]:focus {
   box-shadow: 1px 1px 15px -4px rgba(0, 191, 166, 0.68);
   outline: none;
 }
+
 textarea:focus {
   box-shadow: 1px 1px 15px -4px rgba(0, 191, 166, 0.68);
   outline: none;
@@ -135,6 +136,23 @@ textarea {
   line-height: 2em;
   padding: 15px;
   box-sizing: border-box;
+}
+/*Validaciones*/
+input[type="text"]:valid{
+  border: 1px solid lightgreen;
+  box-shadow: none;
+}
+input[type="text"]:invalid:not(:placeholder-shown){
+  border: 1px solid red;
+  box-shadow: none;
+}
+input[type="email"]:valid{
+  border: 1px solid lightgreen;
+  box-shadow: none;
+}
+input[type="email"]:invalid:not(:placeholder-shown){
+  border: 1px solid red;
+  box-shadow: none;
 }
 @media screen and (max-width: 567px) {
   .contact-box {
