@@ -25,9 +25,7 @@
     <header class="hide-section">
       <div class="header-menu">
         <a class="m-right-big head-it nav-item" href="#home">HOLA</a>
-        <a class="m-right-big head-it nav-item" href="#knowledge"
-          >CONOCIMIENTOS</a
-        >
+        <a class="m-right-big head-it nav-item" href="#knowledge">CONOCIMIENTOS</a>
         <a class="m-right-big head-it nav-item" href="#projects">PROYECTOS</a>
         <a class="m-right-big button" href="#contact">CONTACTO</a>
       </div>
@@ -464,15 +462,23 @@
                 <input required type="text" id="idNombre" name="nombre"
                     autocomplete="off"
                     enable
-                    placeholder="p. ej.: Fabiola"
-                ></div>
+                    placeholder="p. ej.: Fabiola">
+                  <i class="far fa-times-circle icon-invalid"
+                    aria-hidden="true"></i>
+                  <i class="far fa-check-circle icon-valid"
+                    aria-hidden="true"></i>
+              </div>
                 <div class="form-lastn">
                 <label for="idApellido">Apellido * </label><br>
                 <input required type="text" id="idApellido" name="apellido"
                     autocomplete="off"
                     enable
-                    placeholder="p. ej.: Montoya"
-                ></div>
+                    placeholder="p. ej.: Montoya">
+                <i class="far fa-times-circle icon-invalid"
+                aria-hidden="true"></i>
+              <i class="far fa-check-circle icon-valid"
+                aria-hidden="true"></i>
+              </div>
               </div>
               <div class="email-sec-form m-bottom-big">
                 <label for="idEmail">Email * </label><br>
@@ -480,6 +486,10 @@
                     autocomplete="off"
                     enable
                     placeholder="p. ej.: fabi@gmail.com">
+                    <i class="far fa-times-circle icon-invalid"
+                    aria-hidden="true"></i>
+                  <i class="far fa-check-circle icon-valid"
+                    aria-hidden="true"></i>
               </div>
               <div class="message-sec-form m-right-lil">
                 <label for="message">Mensaje *</label><br>

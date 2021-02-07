@@ -1,18 +1,19 @@
 /*-----------------CONTACT----------------*/
 .sec-contact {
-  height: 1024px;
+  height:auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px;
 }
 .contact-box {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
 
-  height: 693px;
-  width: 90%;
+  height: auto;
+  width: auto;
   background-color: white;
   border: 1px solid #e0e0e0;
   border-radius: 15px;
@@ -23,7 +24,6 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  height: 530.333px;
   width: 488.667px;
   padding: 0 0 0 20px;
   min-height: auto;
@@ -130,7 +130,7 @@ textarea {
   color: gray;
   background-color: #f6f7f8;
   border-radius: 20px;
-  width: 470px;
+  width: 450px;
   height: 169px;
   font-size: 13px;
   line-height: 2em;
@@ -142,6 +142,28 @@ input[type="text"]:valid{
   border: 1px solid lightgreen;
   box-shadow: none;
 }
+
+.icon-invalid,
+.icon-valid {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transform: translateY(50%);
+}
+.icon-valid {
+  color: #88c459;
+}
+.icon-invalid {
+  color: #f5414f;
+}
+input:valid ~ .icon-valid,
+textarea:valid ~ .icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid,
+textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
+  display: block;
+}
+
 input[type="text"]:invalid:not(:placeholder-shown){
   border: 1px solid red;
   box-shadow: none;
