@@ -4,7 +4,7 @@ Queria ver si me ayudan a revisar esto:
 
 1. Mi textarea si se hace mas grande, se sale de mi section
 En lugar de hacer mi section lo mas grande
-
+2. Mi validacion del formulario trate de implementar esto pero no fue.
 /*Validacion del input*/
 input[type="text"]:valid{
   border: 1px solid green;
