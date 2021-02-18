@@ -7,6 +7,7 @@ footer {
   
     color: white;
     height: 315px;
+    width: auto;
   }
   .f-sitemap {
     display: flex;
@@ -16,7 +17,7 @@ footer {
     padding: 30px;
   }
 
-  @media screen and (max-width:700px){
+  @media screen and (max-width:567){
     .hide-element{
       display: none;
     }

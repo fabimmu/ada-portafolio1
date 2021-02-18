@@ -13,7 +13,6 @@
   align-items: flex-start;
 
   height: auto;
-  width: auto;
   background-color: white;
   border: 1px solid #e0e0e0;
   border-radius: 15px;
@@ -166,6 +165,7 @@ input[type="email"]:invalid:not(:placeholder-shown){
     border: none;
     padding: 100px 60px 100px 60px;
     margin-bottom: 85px;
+    width: auto;
   }
   ul {
     display: flex;
@@ -174,5 +174,8 @@ input[type="email"]:invalid:not(:placeholder-shown){
   }
   .back-c-gray2 {
     background-color: white;
+  }
+  .panel-size{
+    width: auto;
   }
 }

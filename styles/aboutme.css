@@ -39,7 +39,6 @@
     line-height: 22.4px;
   }
   .panel-right {
-    width: 500px;
     height: 500px;
     display: flex;
     justify-content: flex-end;
@@ -60,15 +59,19 @@
   height: auto;
     }
     .panel-right {
+      width: auto;
       height: auto;
       display: flex;
       justify-content: center;
     }
     .panel-left {
+      width: auto;
+
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
     h1 {
       font-size: 60px;
