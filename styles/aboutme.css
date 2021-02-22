@@ -14,7 +14,7 @@
     height: 503px;
   }
   .panel-left {
-    display: flex;
+    width: 50%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -39,6 +39,7 @@
     line-height: 22.4px;
   }
   .panel-right {
+    width: 50%;
     height: 500px;
     display: flex;
     justify-content: flex-end;
