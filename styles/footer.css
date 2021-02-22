@@ -38,13 +38,11 @@ footer {
   .icon-formatt {
     color: #00bfa6;
     background-color: white;
-    /*width: 43px;
-    height: 43px;*/
+    border: 1px solid white;
     padding: 15px;
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none solid #00bfa6;
-
   }
   .icon-formatt:hover{
     color: white;
