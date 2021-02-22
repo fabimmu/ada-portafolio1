@@ -16,18 +16,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
-    height: 145px;
+    width: 60%;
   }
   .q-text {
     text-align: center;
-    font-size: 19px;
-    margin-bottom: 58px;
+    font-size: 2rem;
   }
   .q-author {
-    font-size: 27.04px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 32.448px;
   }
   @media screen and (max-width: 567px) {
     .q-text-box {
@@ -35,7 +32,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: auto;
       height: 145px;
       padding: 15px;
     }

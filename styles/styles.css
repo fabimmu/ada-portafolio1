@@ -40,6 +40,9 @@ body {
 .m-bottom-huge {
   margin-bottom: 40px;
 }
+.m-bottom-shuge {
+  margin-bottom: 60px;
+}
 .button {
   display: flex;
   justify-content: center;
