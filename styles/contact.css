@@ -173,7 +173,7 @@ input[type="email"]:invalid:not(:placeholder-shown){
     width: auto;
   }
   .parrafo {
-    width: 75%;
+    width: 100%;
   }
   ul {
    padding: 0 0 0 0;
@@ -183,5 +183,6 @@ input[type="email"]:invalid:not(:placeholder-shown){
   }
   .panel-size{
     width: auto;
+    padding: 0 0 0 0;
   }
 }

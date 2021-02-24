@@ -27,12 +27,16 @@
     font-weight: 900;
   }
   @media screen and (max-width: 567px) {
+    .sec-quote{
+      padding: 60px 10px 60px 10px;
+      height: auto;
+    }
     .q-text-box {
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 145px;
+      height: auto;
       padding: 15px;
     }
   }
