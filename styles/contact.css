@@ -168,7 +168,7 @@ input[type="email"]:invalid:not(:placeholder-shown){
     align-items: center;
     background-color: white;
     border: none;
-    padding: 100px 60px 100px 60px;
+    padding: 0 0 0 0;
     margin-bottom: 85px;
     width: auto;
   }
