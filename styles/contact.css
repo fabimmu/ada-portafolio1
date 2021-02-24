@@ -161,18 +161,24 @@ input[type="email"]:invalid:not(:placeholder-shown){
 }
 
 @media screen and (max-width: 567px) {
+  .sec-contact{
+    padding: 0px;
+  }
   .contact-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: white;
     border: none;
-    padding: 0 0 0 0;
-    margin-bottom: 85px;
+    padding: 30px;
+    margin: 0px;
     width: auto;
   }
   .parrafo {
+    width: 100%;
+  }
+  form{
     width: 100%;
   }
   ul {
@@ -182,7 +188,19 @@ input[type="email"]:invalid:not(:placeholder-shown){
     background-color: white;
   }
   .panel-size{
-    width: auto;
-    padding: 0 0 0 0;
+    width: 100%;
+    padding: 0px;
+  }
+  .right-panel-contact{
+    width: 100%;
+  }
+  .name-sec-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+  }
+  .form-name{
+    margin-bottom: 15px;
   }
 }
