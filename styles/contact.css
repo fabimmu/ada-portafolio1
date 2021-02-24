@@ -172,6 +172,9 @@ input[type="email"]:invalid:not(:placeholder-shown){
     margin-bottom: 85px;
     width: auto;
   }
+  .parrafo {
+    width: 75%;
+  }
   ul {
    padding: 0 0 0 0;
   }
