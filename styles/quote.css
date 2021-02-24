@@ -1,42 +1,41 @@
 /*--------QUOTE----------------*/
 .sec-quote {
-    color: white;
-    height: 565px;
-    }
-  .q-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .fa-quote-right {
-    font-size: 5rem;
+  color: white;
+  height: 565px;
+}
+.q-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fa-quote-right {
+  font-size: 3.5rem;
+}
+.q-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.q-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.q-author {
+  font-weight: 900;
+}
+@media screen and (max-width: 567px) {
+  .sec-quote {
+    padding: 60px 10px 60px 10px;
+    height: auto;
   }
   .q-text-box {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    height: auto;
+    padding: 15px;
   }
-  .q-text {
-    text-align: center;
-    font-size: 2rem;
-  }
-  .q-author {
-    font-size: 1.5rem;
-    font-weight: 900;
-  }
-  @media screen and (max-width: 567px) {
-    .sec-quote{
-      padding: 60px 10px 60px 10px;
-      height: auto;
-    }
-    .q-text-box {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: auto;
-      padding: 15px;
-    }
-  }
+}

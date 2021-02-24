@@ -14,7 +14,7 @@
   .proj-description {
     text-align: center;
     height: 64px;
-    width: 400px;
+    width: auto;
     margin: 16px 0 16px 0;
     min-height: auto;
     max-width: 400px;
@@ -73,5 +73,28 @@
       align-items: center;
       height: auto;
     }
-
+    .p-catalog {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .proj-card {
+      width: 60%;
+      height: 347px;
+      background-color: white;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid #dddfe5;
+      margin: 10px 5px 10px 5px;
+      padding: 25px;
+      min-height: auto;
+      min-width: auto;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
   }
