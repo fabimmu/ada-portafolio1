@@ -45,8 +45,9 @@ body {
 }
 .button {
   width: auto;
+  /*
   display: flex;
-  justify-content: center;
+  justify-content: center;*/
   color: white;
   background-color: #00bfa6;
   border-radius: 100px;
