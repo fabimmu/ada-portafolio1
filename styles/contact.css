@@ -173,9 +173,7 @@ input[type="email"]:invalid:not(:placeholder-shown){
     width: auto;
   }
   ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   padding: 0 0 0 0;
   }
   .back-c-gray2 {
     background-color: white;
