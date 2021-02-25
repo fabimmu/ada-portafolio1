@@ -1,46 +1,99 @@
 /*--------CONOCIMIENTOS----------------*/
 .sec-knowledge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 110px 40px 130px 40px;
+}
+.knowledge-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 742.208px;
+  width: 80%;
+  min-height: auto;
+  max-width: auto;
+  min-width: auto;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 54px;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  word-spacing: 0px;
+  margin: 37px 0 17px 0;
+}
+.desc-know {
+  height: auto;
+  width: 100%;
+  margin: 16px 0 16px 0;
+  min-height: auto;
+  text-align: center;
+}
+.skills-know {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 25%;
+  height: 230px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #dddfe5;
+  min-height: auto;
+  min-width: auto;
+}
+.skills-card:hover {
+  border: 1px solid #00bfa6;
+  color: #00bfa6;
+}
+.skill-logo {
+  height: 74.6667px;
+  width: 197.333px;
+}
+.logo-format {
+  font-size: 75.36px;
+}
+.skill-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none solid rgb(0, 0, 0);
+}
+@media screen and (max-width: 567px) {
+  .sec-knowledge {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 981px;
-    padding: 110px 40px 130px 40px;
+    height: auto;
+    padding: 80px 10px 80px 10px;
   }
   .knowledge-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 742.208px;
-    width: 80%;
+    height: auto;
     min-height: auto;
-    max-width: auto;
     min-width: auto;
     box-sizing: border-box;
   }
   h2 {
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 54px;
-    text-decoration: none solid rgb(0, 0, 0);
-    text-align: center;
-    word-spacing: 0px;
-    margin: 37px 0 17px 0;
-  }
-  .desc-know {
-    height: auto;
-    width: 100%;
-    margin: 16px 0 16px 0;
-    min-height: auto;
-    text-align: center;
-  }
-  .skills-know {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 0px;
   }
   .skills-card {
     display: flex;
@@ -48,8 +101,9 @@
     justify-content: center;
     align-items: center;
     color: black;
-    width: 25%;
-    height: 230px;
+    width: 50%;
+    height: 180px;
+    padding: 20px;
     background-color: white;
     box-sizing: border-box;
     border-radius: 10px;
@@ -57,67 +111,15 @@
     min-height: auto;
     min-width: auto;
   }
-  .skills-card:hover {
-    border: 1px solid #00bfa6;
-    color: #00bfa6;
+  .m-right-big {
+    margin-right: 5px;
   }
-  .skill-logo {
-    height: 74.6667px;
-    width: 197.333px;
-  }
-  .logo-format {
-    font-size: 75.36px;
-  }
-  .skill-name {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    text-decoration: none solid rgb(0, 0, 0);
-  }
-  @media screen and (max-width: 567px) {
-    .sec-knowledge{
-      display: flex;
+  .skills-know {
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    padding: 110px 40px 130px 40px;
-    } 
-    .knowledge-box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: auto;
-      min-height: auto;
-      min-width: auto;
-      box-sizing: border-box;
-    }
-    .skills-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      width: 40%;
-      height: 180px;
-      padding: 20px;
-      background-color: white;
-      box-sizing: border-box;
-      border-radius: 10px;
-      border: 1px solid #dddfe5;
-      min-height: auto;
-      min-width: auto;
-    }
-    .m-right-big{
-      margin-right: 5px;
-    }
-    .skills-know {
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-    }
-     
-    
+    flex-direction: row;
   }
+}
