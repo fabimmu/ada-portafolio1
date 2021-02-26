@@ -81,6 +81,7 @@
     flex-wrap: wrap;
   }
   .proj-card {
+    width: 80%;
     height: 300px;
     background-color: white;
     box-sizing: border-box;
