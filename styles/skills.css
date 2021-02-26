@@ -63,7 +63,7 @@ h2 {
 }
 .skill-logo {
   height: 74.6667px;
-  width: 197.333px;
+  width: 85%;
 }
 .logo-format {
   font-size: 75.36px;
@@ -80,7 +80,7 @@ h2 {
     justify-content: center;
     align-items: center;
     height: auto;
-    padding: 80px 10px 80px 10px;
+    padding: 80px 0px 80px 0px;
   }
   .knowledge-box {
     display: flex;
@@ -101,8 +101,9 @@ h2 {
     justify-content: center;
     align-items: center;
     color: black;
-    width: 50%;
-    height: 180px;
+    height: 150px;
+    width: 35%;
+    margin: 10px 10px;
     padding: 20px;
     background-color: white;
     box-sizing: border-box;
@@ -121,5 +122,6 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }

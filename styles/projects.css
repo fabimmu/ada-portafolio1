@@ -14,11 +14,7 @@
 .proj-description {
   text-align: center;
   height: 64px;
-  width: auto;
   margin: 16px 0 16px 0;
-  min-height: auto;
-  max-width: 400px;
-  min-width: auto;
 }
 .p-catalog {
   box-sizing: border-box;
